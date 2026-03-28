@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Sites</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; background: #f0f2f5; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px 20px; }
+        h1 { font-size: 2rem; color: #1a1a2e; margin-bottom: 8px; }
+        p { color: #777; margin-bottom: 40px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; max-width: 900px; width: 100%; }
+        .card { background: #fff; border-radius: 12px; padding: 32px; text-decoration: none; color: #333; border: 1px solid #e0e0e0; transition: transform 0.2s, box-shadow 0.2s; }
+        .card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,0.12); }
+        .card .icon { font-size: 2.5rem; margin-bottom: 16px; }
+        .card h2 { font-size: 1.25rem; margin-bottom: 8px; }
+        .card span { color: #888; font-size: 0.9rem; line-height: 1.5; }
+        footer { margin-top: 50px; color: #bbb; font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+    <h1>Sample Sites</h1>
+    <p>Click a card to view each sample site</p>
+    <div class="grid">
+        <a href="portfolio.html" class="card">
+            <div class="icon">&#128188;</div>
+            <h2>Portfolio</h2>
+            <span>A personal portfolio showcasing projects with a clean card layout.</span>
+        </a>
+        <a href="landing.html" class="card">
+            <div class="icon">&#9729;</div>
+            <h2>Landing Page</h2>
+            <span>A SaaS product landing page with hero, features, and pricing sections.</span>
+        </a>
+        <a href="blog.html" class="card">
+            <div class="icon">&#9997;</div>
+            <h2>Blog</h2>
+            <span>A minimal blog layout with article cards and clean typography.</span>
+        </a>
+    </div>
+    <footer>&copy; 2026 Sample Sites</footer>
+</body>
+</html>
